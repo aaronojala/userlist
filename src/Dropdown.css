@@ -1,0 +1,39 @@
+.dropdown {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  min-width: 20rem;
+  height: 2.5rem;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 16px;
+}
+
+option {
+  font-size: 16px;
+  appearance: none;
+}
+
+.card {
+  height: 20rem;
+  width: 26rem;
+  margin: 5rem;
+  padding: 3rem;
+  border: 2px solid #fff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+h2,
+h3,
+h4 {
+  padding: 1rem;
+}
